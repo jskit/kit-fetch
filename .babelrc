@@ -1,0 +1,14 @@
+{
+  "presets": [
+    ["env", { "modules": false }],
+    "es2015",
+    "stage-0"
+  ],
+  "plugins": [
+    // babel对于 export default {} 支持不好
+    // 需要插件 babel-plugin-add-module-exports：
+    "add-module-exports",
+    "transform-runtime"
+  ],
+  "comments": false
+}

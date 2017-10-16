@@ -1,6 +1,6 @@
 {
   "name": "kit-fetch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "定制处理数据请求，底层使用 isomorphic-fetch（Fetch）",
   "main": "lib/index.js",
   "scripts": {

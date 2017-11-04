@@ -9,5 +9,8 @@
 import fetch from 'kit-fetch'
 
 // 自定义 Fetch
-import { request } from 'kit-fetch'
+import { Request } from 'kit-fetch'
+const request = new Request({
+  ...
+})
 ```

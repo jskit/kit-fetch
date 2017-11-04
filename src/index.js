@@ -1,8 +1,27 @@
 import fetch from './fetch'
-import request from './Request'
+import { merge } from 'lodash'
+import request from './request'
 
-export default fetch
+const defaults = {}
 
 export {
-  request,
+  fetch,
+}
+export default request
+
+export class Request {
+  constructor(instanceConfig) {
+    this.setting(instanceConfig)
+  }
+
+  setting(opts) {
+    // 这个会改变 defaults 的值吗
+    this.defaults = merge({}, defaults, this.defaults, { method: 'get' }, opts)
+  }
+
+  getConfig() {
+    return this.defaults
+  }
+
+
 }

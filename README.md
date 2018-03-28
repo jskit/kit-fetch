@@ -1,16 +1,19 @@
-# kit-fetch
+# kit-request
 
-定制处理数据请求，底层使用 isomorphic-fetch（Fetch）
+封装数据请求，fetch 底层使用 isomorphic-fetch，xhr 底层使用 axios
 
 ## 用法
 
-```bash
-// use fetch
-import fetch from 'kit-fetch'
+```js
+// use fetch(isomorphic-fetch)
+import fetch from 'kit-request/fetch'
 
-// 自定义 Fetch
-import { Request } from 'kit-fetch'
+// use xhr(axios)
+import xhr from 'kit-request/xhr'
+
+// use request(Not completed)
+import Request from 'kit-fetch'
 const request = new Request({
-  ...
+  // config...
 })
 ```

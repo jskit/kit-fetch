@@ -1,5 +1,5 @@
-import fetch from './fetch'
-import { merge } from 'lodash'
+import fetch from '../fetch'
+import merge from 'lodash.merge'
 import request from './request'
 
 const defaults = {}

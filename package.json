@@ -1,7 +1,7 @@
 {
   "name": "kit-request",
-  "version": "1.0.1",
-  "description": "定制处理数据请求，fetch使用 isomorphic-fetch，xhr 使用 axios",
+  "version": "1.0.2",
+  "description": "封装数据请求，fetch使用 isomorphic-fetch，xhr 使用 axios",
   "main": "lib/index.js",
   "options": {
     "mini": "--harmony --require babel-core/register test/*.spec.js",
@@ -32,9 +32,9 @@
   "author": "cloudyan <1395093509@qq.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jskit/babel-plugin-mini/issues"
+    "url": "https://github.com/jskit/kit-request/issues"
   },
-  "homepage": "https://github.com/jskit/babel-plugin-mini#readme",
+  "homepage": "https://github.com/jskit/kit-request#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "babel-plugin-component": "^1.1.0",

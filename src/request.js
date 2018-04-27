@@ -103,7 +103,7 @@ export default function request(url, options = {}, success = noop, fail = noop) 
     } = err
     if (errno === 510010) {
       // 可以传入定制错误处理等，如 510010 代表无权限，推荐使用404 处理
-      // mini.goPage('login')
+      mini.goLogin()
     } else {
       const message = `${errno}: ${errmsg}`
       mini.showToast(message)

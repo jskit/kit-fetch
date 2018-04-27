@@ -6,6 +6,9 @@ import {
 } from 'mint-ui'
 
 export default {
+  goLogin() {
+    console.log('跳转到登录页面')
+  },
   showToast: Toast,
   showLoading: (opts = {}) => {
     let op = {}

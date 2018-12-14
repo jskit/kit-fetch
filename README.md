@@ -1,5 +1,7 @@
 # kit-request
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jskit/kit-request.svg)](https://greenkeeper.io/)
+
 封装数据请求，fetch 底层使用 isomorphic-fetch，xhr 底层使用 axios
 
 ## 用法
